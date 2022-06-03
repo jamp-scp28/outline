@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><title>//inject-title//</title><meta name="theme-color" content="#FFF"/><meta name="slack-app-id" content="//inject-slack-app-id//"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="color-scheme" content="light dark"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content="//inject-description//"/><link rel="canonical" href="//inject-canonical//"/>//inject-prefetch//<link rel="shortcut icon" type="image/png" href="/favicon-32.png" sizes="32x32"/><link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" sizes="192x192"/><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Outline"/><style>body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+
+      #root {
+        flex: 1;
+        min-height: 100vh;
+        width: 100%;
+      }</style><meta name="theme-color" content="#fff" /><link rel="manifest" href="/static/manifest.d8493139975b5089b0e0e369ff45871c.json" /></head><body><div id="root"></div><script>//inject-env//</script><script>if (
+        window.localStorage &&
+        window.localStorage.getItem("theme") === "dark"
+      ) {
+        var color = "#111319";
+        document.querySelector("#root").style.background = color;
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", color);
+      }</script><script src="/static/runtime.dc8e1437cca582a92283.js"></script><script src="/static/main.3e352440e9afc69c833c.js"></script></body></html>

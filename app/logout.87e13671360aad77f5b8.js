@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["logout"],{roK4:function(t,o,e){"use strict";e.r(o);var n=e("q1tI"),u=e("Ty5D"),a=e("1RBS");o.default=function Logout(){return Object(a.a)().auth.logout(),n.createElement(u.b,{to:"/"})}}}]);
+//# sourceMappingURL=logout.87e13671360aad77f5b8.js.map
